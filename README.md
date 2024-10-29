@@ -44,3 +44,24 @@
    - Quá trình tải sẽ hiển thị trong phần **Download Progress**.
 
 ## Cấu Trúc Thư Mục
+    ```bash
+    ffmpeg (thư mục)
+    Download.py
+    Install.bat
+    requirements.txt
+    ```
+## Lỗi Phổ Biến
+- **ModuleNotFoundError: No module named 'gradio'**: Kiểm tra lại cài đặt thư viện bằng lệnh `python -m pip install gradio`.
+- **Không tìm thấy FFmpeg**: Kiểm tra lại đường dẫn của FFmpeg và đảm bảo nó nằm trong `ffmpeg/bin`.
+
+## Đóng Góp
+Chúng tôi luôn chào đón các đóng góp từ cộng đồng! Vui lòng tạo một pull request hoặc mở một issue để giúp cải thiện ứng dụng.
+
+---
+
+**Liên hệ**: Nếu có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi qua Facebook [1Touch.Pro](https://www.facebook.com/nqthaivl.1982).
+
+---
+
+**Bản quyền © 2024 1Touch.Pro** - Tất cả quyền được bảo lưu.
+
