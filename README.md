@@ -44,12 +44,10 @@
    - Quá trình tải sẽ hiển thị trong phần **Download Progress**.
 
 ## Cấu Trúc Thư Mục
-    ```bash
     ffmpeg (thư mục)
     Download.py
     Install.bat
     requirements.txt
-    ```
 ## Lỗi Phổ Biến
 - **ModuleNotFoundError: No module named 'gradio'**: Kiểm tra lại cài đặt thư viện bằng lệnh `python -m pip install gradio`.
 - **Không tìm thấy FFmpeg**: Kiểm tra lại đường dẫn của FFmpeg và đảm bảo nó nằm trong `ffmpeg/bin`.
